@@ -1,0 +1,118 @@
+.banners-card {
+  background-color: #e7efff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  gap: 16px;
+  height: 100%;
+  padding: 32px;
+}
+
+.banners-card--flat {
+  padding: 32px 20px 20px;
+  text-align: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.banners-card__wrapper {
+  display: flex;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.banners-card--flat .banners-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.banners-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.banners-card--flat .banners-card__info {
+  gap: 8px;
+  align-items: center;
+}
+
+.banners-card__label {
+  border: 1px solid rgba(30, 34, 46, 0.5);
+  border-radius: 4px;
+  color: rgba(30, 34, 46, 0.5);
+  width: 65px;
+  padding: 5px 10px;
+  font-style: Medium;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banners-card__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.banners-card--flat .banners-card__title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.banners-card__text {
+  font-size: 15px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.banners-card--flat .banners-card__text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.banners-card--flat .banners-card__image {
+  width: 210px;
+  margin-top: auto;
+}
+
+.banners-card__link {
+  padding: 10px 30px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #476bf0;
+  border-radius: 8px;
+  text-align: center;
+  width: fit-content;
+}
+
+.banners-card--bg-cards {
+  background-color: #476bf0;
+  color: #ffffff;
+}
+
+.banners-card--bg-mortgage {
+  background-color: #cff6e7;
+}
+
+.banners-card--bg-privileges {
+  background-color: #c4e7ff;
+}
+
+.banners-card--bg-cards .banners-card__link {
+  background-color: #ffffff;
+  color: #476bf0;
+}
+
+.banners-card--bg-cards .banners-card__label {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+

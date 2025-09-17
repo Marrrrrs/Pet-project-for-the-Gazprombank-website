@@ -1,0 +1,19 @@
+.banners {
+  border-radius: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.banners__item {
+  width: calc(50% - 16px);
+}
+
+.banners--flat .banners__item {
+  width: calc(25% - 24px);
+}
+
